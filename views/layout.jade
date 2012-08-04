@@ -23,12 +23,6 @@ html
           a.brand(href='/') CrispyMind
           .nav-collapse
             ul.nav
-              li.active
-                a(href='/') Home
-              li
-                a(href='/about') About
-              li
-                a(href='/services') Services
-              li
-                a(href='/contact') Contact
+              each menuitem in menu
+                li(class='#{menuitem.clazz}'): a(href='#{menuitem.route}') #{menuitem.text}
     != body

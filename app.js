@@ -33,6 +33,8 @@ app.configure('production', function(){
 app.get('/', routes.index);
 app.get('/about', routes.about);
 app.get('/services', routes.services);
+app.get('/profiles', routes.profiles);
+app.get('/contact', routes.contact);
 
 // Port settings, required by heroku
 var port = process.env.PORT || 3000;
