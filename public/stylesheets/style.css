@@ -18,10 +18,21 @@ h6 {
 section {
   margin-bottom: 32px;
 }
+section.index {
+  margin-left: 20px;
+}
 li {
   line-height: 22px;
 }
 div.hero-unit {
   background: none;
   border-radius: none;
+  padding: 20px;
+}
+div.hero-unit img {
+  margin-right: 30px;
+}
+div.hero-unit p {
+  padding-top: 10px;
+  text-align: justify;
 }

@@ -5,7 +5,6 @@
 
 var menu = [
   { text: 'Home', route: '/', clazz: '' },
-  { text: 'About', route: '/about', clazz: '' },
   { text: 'Services', route: '/services', clazz: '' },
   { text: 'Partner Profiles', route: '/profiles', clazz: '' },
   { text: 'Contact', route: '/contact', clazz: '' },
@@ -26,22 +25,17 @@ exports.index = function(req, res) {
   res.render('index', { title: 'CrispyMind - Home', menu: menu });
 };
 
-exports.about = function(req, res) {
-  setActiveMenu(1);
-  res.render('about', { title: 'CrispyMind - About us', menu: menu });
-};
-
 exports.services = function(req, res) {
-  setActiveMenu(2);
+  setActiveMenu(1);
   res.render('services', { title: 'CrispyMind - Services', menu: menu });
 };
 
 exports.profiles = function(req, res) {
-  setActiveMenu(3);
+  setActiveMenu(2);
   res.render('profiles', { title: 'CrispyMind - Partner profiles', menu: menu });
 };
 
 exports.contact = function(req, res) {
-  setActiveMenu(4);
+  setActiveMenu(3);
   res.render('contact', { title: 'CrispyMind - Contact', menu: menu });
 };
