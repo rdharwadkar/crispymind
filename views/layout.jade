@@ -22,7 +22,10 @@ html
             span.icon-bar
           a.brand(href='/') CRISPYMIND
           .nav-collapse
-            ul.nav
+            ul.nav.pull-right
               each menuitem in menu
-                li(class='#{menuitem.clazz}'): a(href='#{menuitem.route}') #{menuitem.text}
+                li(class='#{menuitem.clazz}')
+                  a(href='#{menuitem.route}')
+                    i(class='icon-#{menuitem.icon}').icon-white
+                    |  #{menuitem.text}
     != body

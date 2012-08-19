@@ -4,10 +4,10 @@
  */
 
 var menu = [
-  { text: 'Home', route: '/', clazz: '' },
-  { text: 'Services', route: '/services', clazz: '' },
-  { text: 'Partner Profiles', route: '/profiles', clazz: '' },
-  { text: 'Contact', route: '/contact', clazz: '' },
+  { text: 'Home', route: '/', clazz: '', icon: 'home' },
+  { text: 'Services', route: '/services', clazz: '', icon: 'wrench' },
+  { text: 'Partner Profiles', route: '/profiles', clazz: '', icon: 'user' },
+  { text: 'Contact', route: '/contact', clazz: '', icon: 'envelope' },
 ];
 
 var setActiveMenu = function(num) {

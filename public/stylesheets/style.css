@@ -24,6 +24,20 @@ section.index {
 li {
   line-height: 22px;
 }
+iframe .brand,
+.navbar .brand {
+  padding: 8px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f0f0f0;
+  text-shadow: 0 1px 0 #484848;
+}
+ul.nav a {
+  font-size: 16px;
+}
+ul.nav i {
+  margin-top: 5px;
+}
 div.hero-unit {
   background: none;
   border-radius: none;
