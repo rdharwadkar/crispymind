@@ -1,5 +1,3 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans");
-@import url("http://fonts.googleapis.com/css?family=PT+Sans:700");
 body {
   padding-top: 60px;
   font: 15px/22px 'Open Sans', 'Segoe UI', sans-serif;
@@ -24,7 +22,6 @@ section.index {
 li {
   line-height: 22px;
 }
-iframe .brand,
 .navbar .brand {
   padding: 8px 20px;
   font-size: 24px;

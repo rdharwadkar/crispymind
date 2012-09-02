@@ -5,13 +5,11 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(name='description', content='')
     meta(name="author", content='')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=PT+Sans:700', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
-    script(src='/javascripts/jquery.js')
-    script(src='/javascripts/bootstrap.min.js')
-    //if lt IE 8
-      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
   body
     .navbar.navbar-fixed-top
       .navbar-inner
@@ -29,3 +27,7 @@ html
                     i(class='icon-#{menuitem.icon}').icon-white
                     |  #{menuitem.text}
     != body
+    script(src='/javascripts/jquery.js')
+    script(src='/javascripts/bootstrap.min.js')
+    //if lt IE 8
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
